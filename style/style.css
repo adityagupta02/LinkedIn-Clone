@@ -609,6 +609,9 @@ nav ul li a:hover::after {
     .container{
         padding: 15px 3%;
     }
+    .right-sidebar{
+        display: inherit;
+    }
     .left-sidebar, .right-sidebar{
         flex-basis: 100%;
         position: relative;
@@ -623,5 +626,8 @@ nav ul li a:hover::after {
     }
     .comments{
         display: none;
+    }
+    .attachments li a{
+        flex-direction: column;
     }
 }
